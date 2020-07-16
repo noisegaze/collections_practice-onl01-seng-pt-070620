@@ -30,6 +30,7 @@ def kesha_maker(array)
     char[2] == "$" 
   end
     collection << array 
+  end  
 collection  
 end 
     
