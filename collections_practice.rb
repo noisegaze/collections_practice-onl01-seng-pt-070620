@@ -27,7 +27,11 @@ end
 def kesha_maker(array)
   collection = []
   array.each do |char|
-    char[2] 
+    char[2] = $ 
+    collection << array 
+  end 
+collection  
+end 
     
 
 end
