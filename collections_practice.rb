@@ -24,6 +24,47 @@ def reverse_array(array)
   array 
 end   
   
+def kesha_maker(array)
+  array.each do |word|
+    word[2] = "$"
+  end
+end
+
+def find_a(array)
+  array.find_all do |char|
+    char[0] == "a"
+  end
+end
+
+def sum_array(array)  
+   total = 0
+  array.each do |int|
+     total+=int 
+  end
+  total 
+end 
+  
+def add_s(array)
+  array.collect do |lang|
+    if array[1] == lang 
+      lang 
+    else 
+      lang + "s" 
+    end
+  end 
+end   
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+
+
   
   
   
