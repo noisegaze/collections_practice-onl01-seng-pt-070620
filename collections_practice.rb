@@ -24,7 +24,10 @@ def reverse_array(array)
   array 
 end   
   
-def kesha_maker
+def kesha_maker(array)
+  collection = []
+  array.each do |word|
+    
 
 end
   
