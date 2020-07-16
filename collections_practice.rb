@@ -49,7 +49,10 @@ def add_s(array)
     if array[1] == lang 
       lang 
     else 
-      lang + s 
+      lang + "s" 
+    end
+  end 
+end   
   
   
   
