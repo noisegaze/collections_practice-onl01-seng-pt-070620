@@ -28,8 +28,8 @@ def kesha_maker(array)
   collection = []
   array.each do |char|
     char[2] == "$" 
+  end
     collection << array 
-  end 
 collection  
 end 
     
